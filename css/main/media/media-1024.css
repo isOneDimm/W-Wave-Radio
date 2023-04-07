@@ -1,0 +1,390 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root {
+  --color-white: #fff;
+  --color-main: #121723;
+  --color-border: #e6e8ec;
+  --color-descr: #a1a6b4;
+  --color-hover: #6d31ee;
+  --color-active: #4f28a5;
+  --color-focus: #aa9dfa;
+  --color-products: #f0d288;
+  --color-footer: #292e39;
+}
+
+
+@media (max-width: 1300px) {
+  .guests__list-left {
+    min-width: calc(65% + 2px);
+  }
+
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  /* Header */
+  .header__container-logo {
+    display: none;
+  }
+
+  .header__logo-adaptive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: var(--color-border);
+  }
+
+  .header__logo-img-adaptive {
+    width: 70%;
+  }
+
+  .header__top-nav {
+    margin-right: 34px;
+  }
+
+  .header__top-nav-list {
+    flex-wrap: nowrap;
+  }
+
+  .header__container-top-nav {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+
+  .header__container-bottom {
+    flex-wrap: nowrap;
+  }
+
+  .header__bottom-item:not(:last-child) {
+    margin-right: 28px;
+  }
+
+  .header__bottom-pre {
+    padding-left: 13px;
+    margin-right: 35px;
+  }
+
+  .header__bottom-nav {
+    margin-right: 35px;
+  }
+
+  .header__now-content::after {
+    left: -15px;
+    top: -14px;
+  }
+
+  .header__now-content::before {
+    right: -14px;
+    top: -14px;
+  }
+
+  .header__pre-content::after {
+    top: -14px;
+  }
+
+  .header__age {
+    display: none;
+  }
+
+  /* Hero  */
+  .hero__container {
+    padding-top: 93px;
+  }
+
+  .hero__container {
+    padding-bottom: 90px;
+    background-size: 256px 275px;
+    background-position: right 101px top 77px;
+  }
+
+  .hero__header {
+    margin-bottom: 14px;
+  }
+
+  .hero__descr {
+    max-width: 540px;
+    margin-bottom: 20px;
+  }
+
+  /* Podcasts */
+
+  .podcasts {
+    padding-bottom: 91px;
+  }
+
+  /* Broadcasts */
+  .broadcasts {
+    padding-bottom: 92px;
+  }
+
+  .broadcasts__left-top {
+    margin-bottom: 339px;
+  }
+
+  .broadcasts__left {
+    background-position: left top 348px;
+  }
+
+  .broadcasts__list {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .broadcasts__detailing {
+    padding-top: 21px;
+    padding-left: 14px;
+  }
+
+  /* Guests */
+  .guests {
+    padding-bottom: 96px;
+  }
+
+  .guests__descr {
+    max-width: 536px;
+  }
+
+  .ui-accordion .ui-accordion-content {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    padding-bottom: 18px;
+  }
+
+  .guests__img {
+    margin-bottom: 8px;
+  }
+
+  .guests__descr {
+    margin-bottom: 49px;
+  }
+
+  .guests__title-descr {
+    line-height: 29px;
+  }
+
+  /* Playlist */
+  .playlists {
+    padding-bottom: 255px;
+  }
+
+  .playlists__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .playlists__left {
+    margin-bottom: 34px;
+  }
+
+  .playlists__left::before {
+    display: none;
+  }
+
+  .playlists__left::after {
+    display: none;
+  }
+
+  .playlists__descr {
+    display: none;
+  }
+
+  .playlists__copyright {
+    display: none;
+  }
+
+  .playlists__radio-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+        align-content: start;
+    max-height: 185px;
+  }
+
+  .playlists__radio-container {
+    margin-bottom: 0;
+  }
+
+  .playlists__radio-item {
+    width: auto;
+  }
+
+  .playlists__radio-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .playlists__radio-item:not(:nth-child(4n+4)) {
+    margin-bottom: 26px;
+  }
+
+  .playlists__radio-item:nth-child(-n+4) {
+    margin-right: 34px;
+  }
+
+  .playlists__right {
+    padding-top: 0;
+  }
+
+  .playlists__item {
+    flex-direction: row;
+  }
+
+  .playlists__item::before {
+    top: 0;
+    left: 0;
+  }
+
+  .playlists__img {
+    width: 112px;
+    height: 112px;
+  }
+
+  .playlists__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 9px;
+    width: 100%;
+    height: unset;
+  }
+
+  .playlists__list {
+    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .playlists__list::before {
+    content: '';
+    position: absolute;
+    bottom: -43px;
+    width: 100%;
+    height: 1px;
+    background-color: #d2d5dd;
+  }
+
+  .playlists__list::after {
+    content: '18+';
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    bottom: -163px;
+    border: 1px solid var(--color-descr);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--color-descr);
+  }
+
+  .playlists__right {
+    position: relative;
+  }
+
+  .playlists__right::before {
+    content: 'Раздел «Плейлисты» может содержать информацию, не предназначенную для несовершеннолетних';
+    position: absolute;
+    bottom: -103px;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-descr);
+  }
+
+  .playlists__right::after {
+    content: '© 2021 l W-Wave';
+    position: absolute;
+    bottom: -125px;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-descr);
+  }
+
+  /* Products */
+  .products {
+    padding-bottom: 94px;
+  }
+
+  .products__container {
+    align-items: unset;
+  }
+  .products__img {
+    max-width: 397px;
+  }
+
+  .products__prev {
+    padding-top: 124px;
+    margin-right: 30px;
+  }
+
+  .products__prev::before {
+    top: 119px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url('../../../img/products-new-1024.png');
+  }
+
+  /* About */
+  .about__top::before {
+    display: none;
+  }
+
+  .about__other {
+    max-width: 540px;
+  }
+
+  .about__descr {
+    margin-bottom: 28px;
+    max-width: 540px;
+  }
+
+  .about__top::after {
+    top: 48px;
+  }
+
+  .about__swiper-btn-next {
+    right: -65px;
+    top: 38%;
+  }
+
+  .about__swiper-btn-prev {
+    left: -65px;
+    top: 38%;
+  }
+
+  .about__swiper {
+    margin-bottom: 37px;
+  }
+
+  /* Footer */
+  .footer::before {
+    background-position: center left 14px;
+  }
+}
